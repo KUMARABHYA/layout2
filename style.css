@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+ ul {
+    list-style: none;
+    display: flex;
+    margin-right: 25px;
+    padding-top: 30px;
+    
+    
+    
+}
+li{
+    margin: 5px;
+}
+.logo {
+    margin-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 12px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(109, 104, 104);
+}
+#contact{
+    color: rgb(32, 32, 32);
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+/* Header */
+
+.about {
+    background: url(asset/background-img.jpg) no-repeat center center/cover;
+    height: 100vh;
+    
+    position: relative;
+}
+
+/* About */
+
+
+
+.about h2, h3, p{
+    color: rgb(194, 190, 190);
+    font-weight: normal;
+}
+#web{
+    color: white;
+}
+#banner{
+    color: rgb(231, 222, 222);
+    font-size: 30px;
+}
+#usd{
+    font-size: small;
+}
+#se{
+    font-size: x-large;
+}
+.side{
+    display: flex;
+justify-content: space-between;
+}
+
+.side-1{
+    margin-top: 5%;
+    margin-left: 40px;
+}
+.side-1 h3{
+    font-size: 55px;
+    margin-top: 20px;
+}
+.side-1 h2{
+    font-size: 50px;
+}
+
+
+.side-2{
+    background-color: white;
+    height: 40vh;
+    margin-top: 3%;
+    margin-right: 40px;
+    padding: 2%;
+    
+}
+#head{
+    color: rgb(92, 88, 88);
+  
+}
+.side-2 p{
+    color: rgb(252, 126, 67);
+    padding-left: 10px;
+}
+.side-2 input{
+    padding: 2px;
+    border: none;
+    font-size: 15px;
+    width: 100%;
+    border-bottom: 1px solid rgb(97, 94, 94);
+}
+.side-2 button{
+    padding: 4%;
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgb(14, 119, 14);
+    border: none;
+    color: rgb(253, 243, 243);
+}
+
+
+
+
+/* Box */
+
+
+
+.box{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+.box p{
+    padding-top: 8px;
+    font-size: 8px;
+    color: rgb(43, 40, 39);
+}
+#down{
+    color: red;
+    font-size: 25x;
+   
+}
+
+
+@media screen and (max-width:1000px) and (min-width:300px)
+{
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    ul{
+        display: block;
+        margin-left: 50px;
+        
+        
+        
+    }
+    li{
+        text-align: center;
+       
+        font-size: small;
+    }
+    .logo{
+        margin-bottom: -15px;
+    }
+    .box{
+        display: block;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .side{
+       display: block;
+    }
+    .side-2{
+        margin:10px 10px;
+    
+        
+    }
+    .box{
+        margin-top: 20%;
+
+    }
+    .box1{
+        margin-bottom: 10%;
+    }
+    .box2{
+        margin-bottom: 10%;
+    }
+    .box3{
+        margin-bottom: 10%;
+    }
+    .box4{
+        margin-bottom: 10%;
+    }
+}
+
+
